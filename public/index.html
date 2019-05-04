@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WebSockets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div id="receiving">
+                <ul></ul>
+            </div>
+            <div id="sending">
+                <form>
+                    <input type="text" autocomplete="off" placeholder="Type a message..." disabled>
+                </form>
+            </div>
+        </div>
+        <div id="config">
+            <form>
+                Username:
+                <br>
+                <input type="text" id="username" autofocus required>
+                <br>
+                <input type="submit" value="Connect">
+            </form>
+            <p id="connMsg"></p>
+        </div>
+    </div>
+    <script src="forms.js"></script>
+</body>
+
+</html>

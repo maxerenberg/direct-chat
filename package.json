@@ -1,0 +1,23 @@
+{
+  "name": "direct-chat",
+  "version": "0.0.1",
+  "description": "A simple chat application using WebSockets.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Erenberg",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxerenberg/direct-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxerenberg/direct-chat/issues"
+  },
+  "homepage": "https://github.com/maxerenberg/direct-chat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ws": "^7.0.0"
+  }
+}
